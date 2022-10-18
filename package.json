@@ -1,0 +1,48 @@
+{
+  "name": "ef_back",
+  "version": "1.0.0",
+  "description": "Curated back end services",
+  "main": "./src/server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon ./src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/empoweredfutures/EF_Back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/empoweredfutures/EF_Back/issues"
+  },
+  "homepage": "https://github.com/empoweredfutures/EF_Back#readme",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/mongoose": "^5.11.97",
+    "@types/passport": "^1.0.11",
+    "@types/passport-jwt": "^3.0.7",
+    "bcrypt": "^5.1.0",
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "joi": "^17.6.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.8.3",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "@types/lodash": "^4.14.186",
+    "typescript": "^4.8.4"
+  }
+}
